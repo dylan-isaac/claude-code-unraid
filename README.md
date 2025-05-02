@@ -18,6 +18,21 @@ This Docker container provides Claude Code CLI as an AI assistant tailored for U
 2. Search for "Claude Code"
 3. Click Install
 
+### Testing the Template Manually (Before Official CA Listing)
+
+You can test the template on your own Unraid server before it's officially added to Community Applications:
+
+1.  **Go to Unraid UI > Apps Tab**.
+2.  Navigate to **Settings** within the Apps/Community Applications section.
+3.  Find the area for **Template Repositories** or **Custom Templates**.
+4.  Add the following *raw* GitHub URL:
+    ```
+    https://raw.githubusercontent.com/dylan-isaac/claude-code-unraid/main/claude-code-unraid.xml
+    ```
+5.  Save the settings and **Refresh/Update** the Appfeed if necessary.
+6.  Search for `claude-code-unraid` in the Apps tab.
+7.  Install and configure the application to ensure the template works correctly.
+
 ### Manual Installation
 
 1. Add the following template URL to Community Applications:

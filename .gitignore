@@ -31,3 +31,6 @@ pids
 # OS specific
 .DS_Store
 Thumbs.db
+
+# Project specific
+TODO.md
