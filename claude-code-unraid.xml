@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>claude-code-unraid</Name>
+  <Repository>dylanisaac/claude-code-unraid</Repository>
+  <Registry>https://hub.docker.com/r/dylanisaac/claude-code-unraid/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/dylan-isaac/claude-code-unraid</Support>
+  <Project>https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview</Project>
+  <Overview>Claude Code CLI assistant container for Unraid. This container provides a Claude AI assistant specifically optimized for Unraid server management and coding tasks. It can help with server maintenance, Docker management, troubleshooting, and more.</Overview>
+  <Category>Tools: Utilities</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://anthropic.com/favicon.ico</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled/>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="ANTHROPIC_API_KEY" Target="ANTHROPIC_API_KEY" Default="" Mode="" Description="Your Anthropic API key. Required for Claude Code to function." Type="Variable" Display="always" Required="true" Mask="true"/>
+  <Config Name="CUSTOM_NODE_OPTIONS" Target="CUSTOM_NODE_OPTIONS" Default="" Mode="" Description="Optional: Custom Node.js options for Claude Code." Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="Data Directory" Target="/data" Default="/mnt/user" Mode="rw" Description="Directory where Claude Code will work with your files. This should be your main storage." Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Config Directory" Target="/config" Default="/mnt/user/appdata/claude-code/config" Mode="rw" Description="Directory for Claude Code configuration, including custom CLAUDE.md file." Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Appdata Directory" Target="/appdata" Default="/mnt/user/appdata/claude-code" Mode="rw" Description="Directory for Claude Code persistent application data." Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Logs Directory" Target="/logs" Default="/mnt/user/appdata/claude-code/logs" Mode="rw" Description="Directory for Claude Code logs." Type="Path" Display="always" Required="true" Mask="false"/>
+</Container>
