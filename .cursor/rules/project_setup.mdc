@@ -1,0 +1,19 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Cursor Rule: Project Setup
+# Description: Automatically loads key project files on workspace open.
+
+---
+
+# Trigger: Project Open
+when:
+  workspaceOpened: true
+
+# Action: Load Files
+then:
+  loadFiles:
+    - README.md
+    - TODO.md
