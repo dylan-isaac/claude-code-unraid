@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>claude-code-unraid</Name>
-  <Repository>dylanisaac/claude-code-unraid</Repository>
-  <Registry>https://hub.docker.com/r/dylanisaac/claude-code-unraid/</Registry>
+  <Repository>dylansheffer/claude-code-unraid:latest</Repository>
+  <Registry>https://hub.docker.com/r/dylansheffer/claude-code-unraid/</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/dylan-isaac/claude-code-unraid</Support>
-  <Project>https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview</Project>
-  <Overview>Claude Code CLI assistant container for Unraid. This container provides a Claude AI assistant specifically optimized for Unraid server management and coding tasks. It can help with server maintenance, Docker management, troubleshooting, and more.</Overview>
+  <Support>https://github.com/dylan-isaac/claude-code-unraid/issues</Support>
+  <Project>https://github.com/dylan-isaac/claude-code-unraid</Project>
+  <Overview>Claude Code CLI in a Docker container for Unraid server management. Helps with server maintenance, Docker management, troubleshooting, and more.</Overview>
   <Category>Tools: Utilities</Category>
   <WebUI/>
   <TemplateURL/>

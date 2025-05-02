@@ -15,8 +15,9 @@ cd "$DIR"
 echo "Building Claude Code Unraid container with tag: $TAG"
 
 # Build Docker image
-docker build -t dylanisaac/claude-code-unraid:$TAG .
+REPO_USER="dylansheffer"
+docker build -t $REPO_USER/claude-code-unraid:$TAG .
 
 echo "Build complete! To push to Docker Hub, run:"
 echo "docker login"
-echo "docker push dylanisaac/claude-code-unraid:$TAG"
+echo "docker push $REPO_USER/claude-code-unraid:$TAG"
