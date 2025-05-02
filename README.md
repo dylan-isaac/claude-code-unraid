@@ -101,3 +101,18 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - [Anthropic](https://www.anthropic.com/) for creating Claude
 - [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) for the CLI tool
+
+## Developer Notes
+
+### Local TODO List
+
+`TODO.md` is loaded into cursor by default and is local to your computer. Helpful for multisession but between commits.
+
+```gitignore
+# .gitignore
+
+# ... other entries
+
+# Project specific
+TODO.md
+```
